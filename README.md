@@ -2,9 +2,13 @@
 
 Welcome to my personal portfolio website—a curated showcase of my work, skills, and passion for building modern, scalable web applications and digital solutions. This portfolio highlights projects I've developed across software engineering, business solutions, and user-focused design.
 
+live-link: => emanuel-juma-okoth.netlify.app
+
 ## 🌐 Overview
 
 This website serves as my digital portfolio, featuring my projects, technical expertise, and professional journey as a Full-Stack Software Developer. It is designed to provide visitors with an interactive experience while showcasing my capabilities in modern web development.
+
+
 
 ## ✨ Features
 
