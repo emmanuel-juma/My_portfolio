@@ -1,11 +1,10 @@
  /* =========================================================
    EMMANUEL JUMA OKOTH — Senior portfolio
-   Light theme matching Praise Chemos style
    ========================================================= */
 
 :root {
   /* Color */
-  --bg: #faf8f5;
+  --bg: #eceae6;
   --bg-elevated: #ffffff;
   --bg-soft: #f0f4ff;
   --border: rgba(30, 58, 138, 0.08);
@@ -813,3 +812,8 @@ nav a:focus-visible::after {
     max-width: 280px;
   }
 }
+
+
+
+
+
