@@ -4,7 +4,7 @@
 
 :root {
   /* Color */
-  --bg: #eceae6;
+  --bg: #faf8f5;
   --bg-elevated: #ffffff;
   --bg-soft: #f0f4ff;
   --border: rgba(30, 58, 138, 0.08);
@@ -21,7 +21,7 @@
   --accent-border: rgba(59, 130, 246, 0.22);
 
   /* Typography */
-  --font: "Inter", system-ui, -apple-system, sans-serif;
+  --font: "Book Antiqua", system-ui, -apple-system, sans-serif;
   --text-xs: 0.8125rem;
   --text-sm: 0.9375rem;
   --text-base: 1.0625rem;
