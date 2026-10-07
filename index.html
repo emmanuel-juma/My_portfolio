@@ -1,386 +1,358 @@
-<!---
-===============================
-Author: ------------------------Emmanuel juma Okoth
-Date: --------------------------N/A
-project: -----------------------My draft portfolio
-=============================
---->
 <!DOCTYPE html>
 <html lang="en">
-
-<!--
-============
-head-section
-============
-
--->
 <head>
-
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Emmanuel Juma Okoth — Software Engineer specializing in React, TypeScript, Next.js, Node.js and MongoDB." />
   <title>Emmanuel Juma Okoth | Software Engineer</title>
-  <link rel="stylesheet" href="portfolio.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="portfolio.css" />
   <script src="portfolio.js" defer></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
-<!--
-=============
-Body-section
-=============
--->
-
 <body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<!---------Header-section---------->
-<header class="header">
-  <!-----Navbar--------->
-  <div class="container nav">
-    <div class="logo">EJO</div>
-    <nav id="nav">
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <button id="menuBtn">☰</button>
-  </div>
-</header>
-<!--------------------------------->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#" class="logo" aria-label="Emmanuel Juma Okoth — Home">EJO</a>
 
-<!----hero-section------------------>
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <p class="badge">Frontend Engineer</p>
-      <h1>
-        Emmanuel Juma Okoth
-      </h1>
-      <p class="subtitle">
-        I am a Software Engineer with a background in Applied Computer Technology and hands-on experience building full-stack web applications using React, TypeScript, Next.js, Node.js, Express, and MongoDB.    
-      </p>
-      <div class="cta">
-        <a href="#projects" class="btn primary">View Projects</a>
-        <a href="#contact" class="btn ghost">Contact</a>
-      </div>
-      <div class="chips">
-        <span>React</span>
-        <span>TypeScript</span>
-        <span>Next.js</span>
-        <span>Node.js</span>
-        <span>MongoDB</span>
-      </div>
+      <nav id="nav" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
+        <span class="menu-icon"></span>
+      </button>
     </div>
+  </header>
 
-    <div class="hero-card">
-      <img src="assets/IMG_6010.png" alt="profile"/>
-    </div>
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="badge">Frontend Engineer</p>
+          <h1 id="hero-heading">Emmanuel Juma Okoth</h1>
+          <p class="subtitle">
+            Software Engineer with a background in Applied Computer Technology.
+            I build full-stack web applications with React, TypeScript, Next.js,
+            Node.js, Express, and MongoDB — focused on clean architecture,
+            performance, and reliable user experiences.
+          </p>
 
-  </div>
+          <div class="cta">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn ghost">Get in Touch</a>
+          </div>
 
-  
-</section>
-<!--------end-of-section------------->
-
-
-
-<!----------Project-section------------>
-<section id="projects" class="section">
-  <div class="container">
-    <h2>Featured Projects</h2>
-    <div class="grid">
-
-
-      <div class="card">
-        <h3>Packright Africa</h3>
-        <br>
-        <p> 
-          A corporate website created for a packaging solutions company, highlighting its products, services, and industry expertise. The platform is designed to enhance brand credibility and help potential clients easily discover business offerings.
-        </p>
-        
-        <div class="project-images">
-          <ul>
-            <li><img src="assets/Screenshot 2026-10-05 at 4.18.38 PM.png" alt="project picture" ></li>
-            <li><img src="assets/Screenshot 2026-10-05 at 4.18.46 PM.png" alt="project picture" ></li>
-            <li><img src="assets/Screenshot 2026-10-05 at 4.18.52 PM.png" alt="project picture" ></li>
-            <li><img src="assets/Screenshot 2026-10-05 at 4.19.17 PM.png" alt="project picture" ></li>
-          </ul>
-
+          <div class="chips" aria-label="Core technologies">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Next.js</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+          </div>
         </div>
 
-        <p>
-          Packright Africa converts customizes and supplies export-grade corrugated packaging for kenya's floriculture and fresh-produce exporters - engineered to EU standards, shipped daily through JKIA. 
-        </p>
-        <br>
-
-        <div class="chips">
-          <span>React</span>
-          <span>TypeScript</span>
-          <span>Next.js</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <img
+              src="assets/IMG_6010.png"
+              alt="Portrait of Emmanuel Juma Okoth"
+              width="520"
+              height="650"
+              loading="eager"
+            />
+          </div>
         </div>
-        <div class="buttonStore">
-          <a href="https://github.com/emmanuel-juma/Packright-Africa" target="_blank">
-            <button class="btn">
-              View Codebase
-            </button>
-          </a>
-        </div>
-        
-        
       </div>
-    </div>
-  </div>
+    </section>
 
-</section>
+    <!-- Projects -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="projects-heading">Featured Project</h2>
+          <p class="section-lead">Selected work that demonstrates product thinking and engineering craft.</p>
+        </header>
 
+        <article class="project-card">
+          <div class="project-body">
+            <h3>Packright Africa</h3>
+            <p>
+              Corporate website for a packaging solutions company that supplies
+              export-grade corrugated packaging for Kenya’s floriculture and
+              fresh-produce exporters. Engineered to EU standards and shipped
+              daily through JKIA.
+            </p>
+            <p>
+              The platform presents products, services, and industry expertise
+              to strengthen brand credibility and help potential clients
+              discover offerings quickly.
+            </p>
 
-<!------
-====================
-Technical-skills section
-====================
--------->
-<section id="skills" class="section dark">
-  <div class="container">
-    <h2>Technical Skills</h2>
-    <div class="skills">
-      <span>JavaScript</span>
-      <span>TypeScript</span>
-      <span>React</span>
-      <span>Next.js</span>
-      <span>Node.js</span>
-      <span>Express</span>
-      <span>MongoDB</span>
-      <span>PostgreSQL</span>
-      <span>Git</span>
-      <span>System Design</span>
-    </div>
-    <br>
-
-    <!------
-    ====================
-    Certifications section
-    ====================
-    -------->
-    <h2>Certifications</h2>
-    <div class="certificates">
-        <div class="card">
-          <div class="project-images">
-            <ul>
-              <li>
-                <img src="assets/1791362131242-e9491d8e-8f80-4d2a-bb1b-e94476321d9c_1.jpg">
-              </li>
-            </ul>
-
-          </div>
-          <p>Software Engineering<br><strong>Power Learn Project</strong></p>
-      
-
-        </div>
-        <div class="card">
-          <div class="project-images">
-            <ul>
-              <li>
-                <img src="assets/1791362645053-b399a846-9825-496c-a555-1e44f763dd67_1.jpg">
-              </li>
-            </ul>
-
-          </div>
-          <p>Employability Readiness <br><strong>Power Learn Project</strong></p>
-            
-
-        </div>
-        <div class="card">
-          <div class="project-images">
-            <ul>
-              <li>
-                <img src="assets/1791362341947-6ef8224e-3f66-4c68-aab9-a69ad17c1174_1.jpg">
-              </li>
-            </ul>
-
-          </div>
-          <p>AI for Software Developers<br><strong>Moringa School</strong></p>
-
-          
-            
-
-        </div>
-        <div class="card">
-          <div class="project-images">
-            <ul>
-              <li>
-                <img src="assets/1791362209930-2b272547-ccce-4faa-bf30-1cd77b368903_1.jpg">
-              </li>
-            </ul>
-
-          </div>
-            <p>Project Management 101 <br><strong>Simplilearn</strong> </p>
-        </div> 
-
-        <div class="card">
-          <div class="project-images">
-            <ul>
-              <li>
-                <img src="assets/1791362579802-5bae0c51-5332-493a-b003-fb2bd2086be4_1.jpg">
-              </li>
-            </ul>
-
-          </div>
-            <p>PMP Webinar meeting I<br><strong>Simplilearn</strong> </p>
-        </div>
-        
-        <div class="card">
-          <div class="project-images">
-            <ul>
-              <li>
-                <img src="assets/1791362464400-b56d6699-5f3a-4c0b-81b5-06ec3b674a99_1.jpg">
-              </li>
-            </ul>
-
-          </div>
-            <p>PMP Webinar meeting II<br><strong>Simplilearn</strong> </p>
-        </div>  
-    </div>
-  </div>
-</section>
-
-
-
-
-<!------
-===================
-Experience section
-====================
--------->
-<section id="experience" class="section">
-  <div class="container">
-    <h2>Experience</h2>
-    <div class="timeline">
-
-      <!---Items------------------->
-      <div class="item">
-        <h3>COO — Cruise Control</h3>
-        <ul>
-            <li>
-                <div class="career">
-                   Owns product direction and system architecture decisions for Cruise Control, a digital automotive marketplace focused on scalable vehicle discovery and transactional workflows. 
-                </div>
-                
-            </li>
-            
-        </ul>
-      </div>
-
-      <!----------------------->
-
-      <div class="item">
-        <h3>Software Engineer</h3>
-        <ul>
-            <li>
-                <div class="career">
-                  Designs and builds full-stack web systems using React, TypeScript, Node.js, Express, and MongoDB with emphasis on scalable architecture and clean system design.  
-                </div>
-                
-            </li>
-            
-        </ul>
-      </div>
-
-      <!--------------------->
-
-      <div class="item">
-        <h3>Managing Director - Packright Africa</h3>
-        <ul>
-          <li>
-            <div class="career">
-                Oversees financial operations and IT inventory systems, ensuring structured tracking of assets, costs, and operational resources across departments
+            <div class="chips">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Next.js</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
             </div>
-            
-          </li>
-          
+
+            <div class="project-actions">
+              <a
+                href="https://github.com/emmanuel-juma/Packright-Africa"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn primary"
+              >
+                View Codebase
+              </a>
+            </div>
+          </div>
+
+          <div class="project-gallery" aria-label="Project screenshots">
+            <img src="assets/Screenshot 2026-10-05 at 4.18.38 PM.png" alt="Packright Africa — homepage" loading="lazy" />
+            <img src="assets/Screenshot 2026-10-05 at 4.18.46 PM.png" alt="Packright Africa — products view" loading="lazy" />
+            <img src="assets/Screenshot 2026-10-05 at 4.18.52 PM.png" alt="Packright Africa — services section" loading="lazy" />
+            <img src="assets/Screenshot 2026-10-05 at 4.19.17 PM.png" alt="Packright Africa — contact page" loading="lazy" />
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills & Certifications -->
+    <section id="skills" class="section section-alt" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="skills-heading">Technical Skills</h2>
+        </header>
+
+        <ul class="skills-list">
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+          <li>PostgreSQL</li>
+          <li>Git</li>
+          <li>System Design</li>
         </ul>
+
+        <header class="section-header section-header--sub">
+          <h2 id="certs-heading">Certifications</h2>
+        </header>
+
+        <div class="certs-grid">
+          <article class="cert-card">
+            <img src="assets/1791362131242-e9491d8e-8f80-4d2a-bb1b-e94476321d9c_1.jpg" alt="Software Engineering certificate — Power Learn Project" loading="lazy" />
+            <div class="cert-meta">
+              <h3>Software Engineering</h3>
+              <p>Power Learn Project</p>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <img src="assets/1791362645053-b399a846-9825-496c-a555-1e44f763dd67_1.jpg" alt="Employability Readiness certificate — Power Learn Project" loading="lazy" />
+            <div class="cert-meta">
+              <h3>Employability Readiness</h3>
+              <p>Power Learn Project</p>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <img src="assets/1791362341947-6ef8224e-3f66-4c68-aab9-a69ad17c1174_1.jpg" alt="AI for Software Developers certificate — Moringa School" loading="lazy" />
+            <div class="cert-meta">
+              <h3>AI for Software Developers</h3>
+              <p>Moringa School</p>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <img src="assets/1791362209930-2b272547-ccce-4faa-bf30-1cd77b368903_1.jpg" alt="Project Management 101 certificate — Simplilearn" loading="lazy" />
+            <div class="cert-meta">
+              <h3>Project Management 101</h3>
+              <p>Simplilearn</p>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <img src="assets/1791362579802-5bae0c51-5332-493a-b003-fb2bd2086be4_1.jpg" alt="PMP Webinar I certificate — Simplilearn" loading="lazy" />
+            <div class="cert-meta">
+              <h3>PMP Webinar I</h3>
+              <p>Simplilearn</p>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <img src="assets/1791362464400-b56d6699-5f3a-4c0b-81b5-06ec3b674a99_1.jpg" alt="PMP Webinar II certificate — Simplilearn" loading="lazy" />
+            <div class="cert-meta">
+              <h3>PMP Webinar II</h3>
+              <p>Simplilearn</p>
+            </div>
+          </article>
+        </div>
       </div>
+    </section>
 
-    </div>
+    <!-- Experience -->
+    <section id="experience" class="section" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="experience-heading">Experience</h2>
+        </header>
 
-  </div>
-</section>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>COO — Cruise Control</h3>
+              <p>
+                Owns product direction and system architecture decisions for
+                Cruise Control, a digital automotive marketplace focused on
+                scalable vehicle discovery and transactional workflows.
+              </p>
+            </div>
+          </li>
 
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Software Engineer</h3>
+              <p>
+                Designs and builds full-stack web systems using React, TypeScript,
+                Node.js, Express, and MongoDB with emphasis on scalable
+                architecture and clean system design.
+              </p>
+            </div>
+          </li>
 
-
-<!------
-====================
-Education - section
-====================
--------->
-
-<section id="education" class="section dark">
-  <div class="container">
-
-    <h2>Education</h2>
-    <br>
-    <p> BSc Applied Computer Technology — USIU-Africa </p>
-    <div> 
-      <div class="career">
-        <p>Engaged in projects strengthening problem-solving, systems design and innovation. </p>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Managing Director — Packright Africa</h3>
+              <p>
+                Oversees financial operations and IT inventory systems, ensuring
+                structured tracking of assets, costs, and operational resources
+                across departments.
+              </p>
+            </div>
+          </li>
+        </ol>
       </div>
-    </div>
-    <br>
-    <p> Software Engineering — Moringa School </p>
-    <div>
-      <div class="career">
-        <p><em>Coursework</em><br>Frontend Development with Javascript, HTML and CSS, React.js, Backend Development with Python, Flask, Object-relational programming and mapping, SQL, JSON APIs. </p>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section section-alt" aria-labelledby="education-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="education-heading">Education</h2>
+        </header>
+
+        <div class="edu-list">
+          <article class="edu-item">
+            <h3>BSc Applied Computer Technology</h3>
+            <p class="edu-org">USIU-Africa</p>
+            <p>Projects focused on problem-solving, systems design, and innovation.</p>
+          </article>
+
+          <article class="edu-item">
+            <h3>Software Engineering</h3>
+            <p class="edu-org">Moringa School</p>
+            <p>
+              Frontend (JavaScript, HTML, CSS, React) · Backend (Python, Flask) ·
+              ORM · SQL · JSON APIs.
+            </p>
+          </article>
+
+          <article class="edu-item">
+            <h3>Certificate</h3>
+            <p class="edu-org">PLP Academy</p>
+            <p>Software project management, STLC, and front-end development.</p>
+          </article>
+        </div>
       </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <header class="section-header">
+            <h2 id="contact-heading">Contact</h2>
+            <p class="section-lead">Open to opportunities and collaborations.</p>
+          </header>
+
+          <ul class="contact-details">
+            <li>
+              <span class="label">Email</span>
+              <a href="mailto:1emmanueljuma@gmail.com">1emmanueljuma@gmail.com</a>
+            </li>
+            <li>
+              <span class="label">Phone</span>
+              <a href="tel:+254759585027">+254 759 585 027</a>
+            </li>
+            <li>
+              <span class="label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener noreferrer">
+                Emmanuel Juma Okoth
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form
+          class="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          novalidate
+        >
+          <input type="hidden" name="access_key" value="153e8be3-ef9b-4d30-80e3-f013f2e56aca" />
+          <input type="hidden" name="subject" value="New message from portfolio" />
+          <input type="checkbox" name="botcheck" class="hidden" style="display:none" />
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First name</label>
+              <input id="firstName" name="first_name" type="text" required autocomplete="given-name" />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last name</label>
+              <input id="lastName" name="last_name" type="text" required autocomplete="family-name" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Emmanuel Juma Okoth. All rights reserved.</p>
     </div>
-    <br>
-    <p> Certificate — PLP Academy </p>
-    <div>
-      <div class="career">
-        <p>Acquired practical skills in software project Management, STLC and front-end Development. </p>
-      </div> 
-    </div>
-
-  </div>
-</section>
-
-
-
-
-<!------
-====================
-Contact-section
-====================
--------->
-<section id="contact" class="section">
-  <div class="container">
-
-    <h2>Contact</h2>
-
-    <p>Email: 1emmanueljuma@gmail.com</p>
-    <p>Phone: +254 759 585 027</p>
-    <p>LinkedIn: <a href="">Emmanuel Juma Okoth</a></p>
-    <div class="sign-up">
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="153e8be3-ef9b-4d30-80e3-f013f2e56aca">
-        <input placeholder="First Name" type="text">
-        <input placeholder="Second Name" type="text"><br>
-        <input placeholder="Email" type="email">
-        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Type your message here..." ></textarea><br>
-        <button type="submit" style="margin-top: 10px;" class="btn">Submit</button>
-      </form>
-    </div>
-
-  </div>
-</section>
-
-
-<!--   Footer    -->
-<footer class="footer">
-  <p>© 2026 Emmanuel Juma Okoth</p>
-</footer>
-
+  </footer>
 </body>
 </html>
