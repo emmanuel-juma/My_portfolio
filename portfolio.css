@@ -409,6 +409,7 @@ nav a:focus-visible::after {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-shadow: 0 10px 30px -12px rgba(30, 58, 138, 0.08);
+  margin-top: 20px;
 }
 
 .project-body h3 {
