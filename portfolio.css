@@ -1697,9 +1697,7 @@ p {
     position: relative;
     min-height: 470px;
     overflow: hidden;
-    border-radius: 3px;
-    background: var(--navy);
-    box-shadow: var(--shadow-hover);
+    border-radius: 3px; 
     animation: fade-up 900ms 120ms ease both;
 }
 
