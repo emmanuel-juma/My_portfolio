@@ -30,13 +30,6 @@ This website serves as my digital portfolio, featuring my projects, technical ex
 - Tailwind CSS
 - JavaScript (ES6+)
 
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-
 ### Tools
 - Git
 - GitHub
