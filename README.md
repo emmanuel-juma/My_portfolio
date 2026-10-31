@@ -43,20 +43,6 @@ This website serves as my digital portfolio, featuring my projects, technical ex
 - Visual Studio Code
 - Postman
 
-## 📁 Project Structure
-
-```
-portfolio/
-│
-├── client/
-├── server/
-├── public/
-├── src/
-├── routes/
-├── controllers/
-├── models/
-└── README.md
-```
 
 ## 🚀 Installation
 
@@ -76,18 +62,6 @@ Install dependencies
 
 ```bash
 npm install
-```
-
-Start the backend server
-
-```bash
-npm run server
-```
-
-Start the frontend
-
-```bash
-npm run client
 ```
 
 ## 📸 Sections
