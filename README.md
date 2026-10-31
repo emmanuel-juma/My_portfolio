@@ -2,15 +2,15 @@
 
 Welcome to my personal portfolio website—a curated showcase of my work, skills, and passion for building modern, scalable web applications and digital solutions. This portfolio highlights projects I've developed across software engineering, business solutions, and user-focused design.
 
-live-link: => emanuel-juma-okoth.netlify.app
 
-## 🌐 Overview
+
+##  Overview
 
 This website serves as my digital portfolio, featuring my projects, technical expertise, and professional journey as a Full-Stack Software Developer. It is designed to provide visitors with an interactive experience while showcasing my capabilities in modern web development.
 
 
 
-## ✨ Features
+##  Features
 
 - Responsive and modern UI
 - Interactive project showcase
@@ -37,7 +37,7 @@ This website serves as my digital portfolio, featuring my projects, technical ex
 - Postman
 
 
-## 🚀 Installation
+##  Installation
 
 Clone the repository
 
@@ -66,11 +66,11 @@ npm install
 - Experience
 - Contact
 
-## 🎯 Goals
+##  Goals
 
 This portfolio is continuously updated to reflect my latest work, technical growth, and personal projects. It demonstrates my commitment to building practical, scalable, and user-centered software solutions.
 
-## 📈 Future Improvements
+## Future Improvements
 
 - Blog integration
 - Dark/Light mode toggle
@@ -81,11 +81,11 @@ This portfolio is continuously updated to reflect my latest work, technical grow
 - Project case studies
 - Performance optimizations
 
-## 🤝 Connect With Me
+##  Connect With Me
 
 Feel free to explore my projects, connect with me, or collaborate on exciting software ideas.
 
-## 📄 License
+##  License
 
 This project is open-source and available under the MIT License.
 
